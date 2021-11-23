@@ -1,6 +1,6 @@
-import API from 'todos-goals-api';
+import API from 'goals-todos-api';
 
-const RECEIVE_DATA = "RECEIVE_DATA";
+export const RECEIVE_DATA = "RECEIVE_DATA";
 
 export const receiveData=(todos, goals)=>{
   return {
